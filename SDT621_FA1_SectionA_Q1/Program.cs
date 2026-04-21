@@ -14,7 +14,7 @@ class Program
         double mark2 = GetMark("Subject 2");
         double mark3 = GetMark("Subject 3");
 
-        //Total is the 3 marks together
+        // My calculation for total, average and result
         double total = mark1 + mark2 + mark3;
         double average = total / 3;
         string result = average >= 50 ? "PASS" : "FAIL";
