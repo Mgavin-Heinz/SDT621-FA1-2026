@@ -24,7 +24,7 @@ public class Program
             double monthlyUtilityUsage = GetValidDoubleInput("Monthly Utility Usage (kWh or litres): ");
             residents.Add(new Resident(name, address, accountNumber, monthlyUtilityUsage));
         }
-
+        // Service request logging
         int requestCount = GetValidIntegerInput("\nHow many service requests do you want to log? ");
 
         for (int i = 0; i < requestCount; i++)
