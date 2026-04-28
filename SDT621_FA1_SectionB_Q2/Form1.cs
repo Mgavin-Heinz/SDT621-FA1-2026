@@ -41,5 +41,10 @@ namespace SDT621_FA1_SectionB_Q2
                                 "Processed at: Home Affairs Digital Desk\r\n" +
                                 $"Timestamp: {DateTime.Now:yyyy/MM/dd HH:mm:ss}";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
